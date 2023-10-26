@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Heebo:wght@100;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;500;700&family=Montserrat:ital,wght@1,300&display=swap");
+
+@font-face {
+  font-family: "Norwester";
+  src: url("../../../font/Norwester-eRV6.otf") format("truetype");
+}
+
+.bookCol {
+  width: 439px;
+  height: auto;
+  margin: 31px 0 0 -142px;
+}
+
+.fireBurstCol {
+  background-image: url("../../../images/coming-soon-images/fire-bolt-left-side.png");
+  background-repeat: no-repeat;
+  background-size: 63%;
+  background-position: center right 12px;
+  height: 10rem;
+  position: relative;
+  top: -92px;
+}
+
+.bookRow {
+  margin-top: -247px;
+}
+
+.bookCoverCon {
+  padding: 0;
+  background-color: black;
+  position: relative;
+}
+
+.marginStyle {
+  margin: -191px 0 0 0;
+}
+
+.cornerImage {
+  background-image: url("../../../images/mobile-header-images/mobile-header-fire-bottom.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  top: -11.95rem;
+  height: 37.9vh;
+}
+
+@media screen and (min-width: 373px) {
+  .bookCol {
+    width: 492px;
+    margin: 19px 0 0 -156px;
+  }
+}
+
+
+@media screen and (min-width: 414px) {
+  .bookCol {
+    margin: 19px 0 0 -148px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .marginStyle {
+    margin: -241px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .cornerImage {
+    top: -8.95rem;
+    height: 44.9vh;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .bookCol {
+    width: 86vw;
+    position: static;
+  }
+
+  .bookCoverCon {
+    background-image: url("../../../images/coming-soon-images/book-cover-with-fire-bottom.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right 181px;
+    height: 39rem;
+  }
+
+  .fireBurstCol {
+    height: 15rem;
+    top: -126px;
+  }
+
+  .bookRow {
+    margin-top: -191px;
+    padding: 3vw;
+  }
+
+  .marginStyle {
+    margin: -254px 0 0 0;
+  }
+
+  .fireBurstCol {
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 692px) {
+  .fireBurstCol {
+    height: 18rem;
+    top: -154px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .bookRow {
+    margin-top: -231px;
+  }
+}
+
+@media screen and (min-width: 734px) {
+  .marginStyle {
+    margin: -288px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 765px) {
+  .bookCol {
+    width: 79vw;
+  }
+  .bookRow {
+    margin-top: -282px;
+  }
+
+}
+
+@media screen and (min-width: 817px) {
+  .quoteCol {
+    margin: 1vh 0 0;
+  }
+}
+
+@media screen and (min-width: 935px) {
+  .bookRow {
+    margin-top: -261px;
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bookRow {
+    margin: -273px 0 0 0;
+  }
+  .bookCol {
+    margin: 0 0 0 -239px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .bookCol {
+    max-width: 859px;
+  }
+}
+
+
+

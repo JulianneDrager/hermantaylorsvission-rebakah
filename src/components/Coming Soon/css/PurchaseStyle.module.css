@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Heebo:wght@100;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;500;700&family=Montserrat:ital,wght@1,300&display=swap");
+
+@font-face {
+  font-family: "Norwester";
+  src: url("../../../font/Norwester-eRV6.otf") format("truetype");
+}
+
+.h1Style {
+  font-family: "Norwester";
+  color: white;
+  text-align: center;
+}
+
+.divBtn {
+  background-color: #a88d4d;
+}
+
+.PurchaseCol {
+  margin: 6rem 0 0 0;
+}
+
+@media screen and (min-width: 373px) {
+  .PurchaseCol {
+    margin: 6.5rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .h1Style {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .PurchaseCol {
+    margin: -1px 0 0 -145px;
+  }
+  .h1Style {
+    font-size: 3.8vw;
+    line-height: 3.5vw;
+    margin: 3px 0 0.2rem 0;
+  }
+  .divBtn {
+    background-color: #3b1c487d;
+    margin: -33px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+.divBtn {
+  margin: -119px 0 0 0;
+}
+}
+
+@media screen and (min-width: 1234px) {
+  .PurchaseCol {
+    margin: -1px 0 0 26px;
+  }
+  .h1Style {
+    font-size: 53.8px;
+    line-height: 53px;
+  }
+
+  .divBtn {
+    background-color: #ffffff00;
+  }
+}

@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* mobile viewport @320px and lower */
+.headerTitle {
+    width: 87%;
+    padding: 0.8rem 0 0 0.5rem;
+}
+
+.headerTitleContainer {
+    text-align: center;
+    background-image: url("../../../images/mobile-header-images/mobile-header-left-top-corner.png");
+    background-repeat: no-repeat;
+    background-size: 27% 84%;
+    border-bottom: 7px solid #412180;
+}
+
+.headerImgBack {
+    background-image: url("../../../images/mobile-header-images/mobile-header-image.jpg");
+    background-size: cover;
+    background-position: center -45px;
+}
+
+.gradient {
+    background-image: url("../../../images/mobile-header-images/purple-gradient.png");
+    background-size: cover;
+}
+
+.headerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerLinksCon {
+    padding: .5rem;
+}
+
+.facebookStyle,
+.instagramStyle {
+    width: 46%;
+    padding: .1rem;
+}
+
+.socailMediaCol {
+    width: 7rem;
+}
+
+.contentH2 {
+    color: white;
+    font-size: 1.8rem;
+    font-family: "Roboto";
+    text-align: center;
+    text-shadow: 1px 3px 10px black;
+    margin: 13.5rem 0 0 0;
+}
+
+.headerBtn,
+.headerBtnCs {
+    background-color: #3B1C48;
+    border: 3px solid #D5B789;
+    border-radius: .3rem;
+    padding: 1rem 1.2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 5;
+    margin: 0 0 2rem 0;
+}
+
+.headerBtnCs {
+    font-size: .5rem;
+}
+
+.headerBtnContainer {
+    text-align: center;
+}
+
+.fireBottom {
+    background-image: url("../../../images/mobile-header-images/mobile-header-fire-bottom.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    top: -11.95rem;
+    height: 11.9rem;
+}
+
+@media screen and (min-width:370px) {
+    .contentH2 {
+        margin: 15.5rem 0 0 0;
+    }
+
+    .headerBtn {
+        margin: 0 0 3rem 0;
+    }
+
+    .headerTitle {
+        width: 81%;
+    }
+
+    .facebookStyle,
+    .instagramStyle {
+        width: 44%;
+    }
+
+    .socailMediaCol {
+        width: 9rem;
+    }
+}
+
+@media screen and (min-width:450px) {
+    .headerImgBack {
+        background-position: center -85px;
+    }
+
+    .contentH2 {
+        font-size: 2.4rem;
+    }
+
+    .headerBtn {
+        padding: 1.5rem 2rem;
+        font-size: 1.4rem;
+    }
+
+    .fireBottom {
+        height: 14.9rem;
+        top: -14.95rem;
+    }
+}
+
+@media screen and (min-width:565px) {
+    .headerTitle {
+        width: 61%;
+        padding: 0 0 0 0.5rem;
+    }
+
+    .headerTitleContainer {
+        background-size: 17% 77%;
+    }
+
+    .headerImgBack {
+        background-position: center -135px;
+    }
+
+    .headerBtn {
+        padding: 1rem;
+    }
+
+    .contentH2 {
+        margin: 8rem 0 0 0;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .contentH2 {
+        font-size: 2.8rem;
+        margin: 19rem 0 0 0;
+        ;
+    }
+
+    .headerBtn {
+        padding: 1.3rem 2.5rem;
+    }
+
+    .headerImgBack {
+        background-position: center -119px;
+    }
+
+    .headerTitle {
+        width: 55%;
+    }
+
+    .headerTitleContainer {
+        background-size: 16% 86%;
+    }
+
+    .fireBottom {
+        height: 15.9rem;
+        top: -15.95rem;
+    }
+}
+
+@media screen and (min-width:665px) {
+    /* 
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    } */
+
+    .rowHeight {
+        height: 50px;
+    }
+
+    .contentH2 {
+        margin: 0;
+        font-size: 1.5rem;
+        width: 16rem;
+        text-align: left;
+    }
+
+    .headerBtn {
+        font-size: .8rem;
+        padding: 1rem 3.5rem;
+        margin: .3rem 0 .3rem 0;
+    }
+
+    .headerLinksCon {
+        padding: 0;
+        margin: 0 0 0 -.45rem;
+    }
+
+    .fireBottom,
+    .leftTriangle {
+        display: none;
+    }
+
+    .headerTitleContainer {
+        background-image: none;
+        border: none;
+        /* background-color: rgba(0, 0, 0, 0.266); */
+
+    }
+
+    .headerTitle {
+        width: 134%;
+        margin-left: -1rem;
+    }
+
+    .headContainer {
+        background-image: url("../../../images/header-images/header-bacground.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .headSection1 {
+        background-image: url("../../../images/header-images/purple-gradient-dktp.png");
+        background-size: cover;
+        position: relative;
+        z-index: 5;
+        padding: 0 0 0 1rem;
+    }
+
+    .HeadImgSize {
+        width: 65%;
+        height: 100%;
+        position: relative;
+        z-index: 1;
+        left: -58px;
+    }
+
+    .facebookStyle,
+    .instagramStyle {
+        width: 18%;
+        /* margin: 0 0 0 -.9rem; */
+        padding: 0 0 0 .3rem;
+    }
+
+    .BottomRightTri {
+        background-image: url("../../../images/header-images/header-bottom-corner.png");
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        display: block;
+        z-index: 8;
+        top: -222px;
+        height: 13.9rem;
+    }
+
+
+}
+
+@media screen and (min-width:736px) {
+    .subTitleCol {
+        margin: 0 0 0 .5rem;
+    }
+
+    .headSection1 {
+        padding: 0 4rem 0 1rem;
+    }
+
+    .HeadImgSize {
+        width: 70%;
+        left: -145px;
+    }
+
+    .BottomRightTri {
+        height: 17.9rem;
+        top: -286px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .HeadImgSize {
+        left: -131px;
+    }
+
+    .rowHeight {
+        height: 80px;
+    }
+
+}
+
+@media screen and (min-width:1022px) {
+    .HeadImgSize {
+        left: -165px;
+    }
+
+    .rowHeight {
+        height: 120px;
+    }
+
+    .headSection1 {
+        padding: 0 11rem 0 1rem;
+    }
+
+    .headerTitle {
+        width: 184%;
+    }
+
+    .contentH2 {
+        font-size: 1.9rem;
+    }
+
+    .headerBtn {
+        font-size: 1rem;
+    }
+
+    .facebookStyle,
+    .instagramStyle {
+        width: 22%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .HeadImgSize {
+        left: -120px;
+    }
+
+    .rowHeight {
+        height: 200px;
+    }
+
+    .headerTitle {
+        width: 200%;
+    }
+
+}
+
+@media screen and (min-width:1400px) {
+    .HeadImgSize {
+        left: -55px;
+    }
+
+    
+    .rowHeight {
+        height: 230px;
+    }
+    
+    .headerTitle {
+        width: 220%;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .HeadImgSize {
+        left: -106px;
+    }
+}

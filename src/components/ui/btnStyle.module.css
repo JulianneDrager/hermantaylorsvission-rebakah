@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;500;700&display=swap");
+
+/* mobile viewport @320px and lower */
+
+.headerBtn,
+.headerBtnCs {
+  background-color: #3b1c48;
+  border: 3px solid #d5b789;
+  border-radius: 0.3rem;
+  padding: 1rem 1.2rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 5;
+  margin: 0 0 2rem 0;
+}
+
+.headerBtnCs,
+.sampleText {
+  font-size: 10px;
+  padding: 0.3rem 0.3rem;
+  text-transform: uppercase;
+  font-family: "Heebo";
+  font-weight: 500;
+  margin: 7px 13px;
+}
+
+.sampleText {
+  margin: 0;
+  font-weight: 600;
+  padding: 0 0 .5rem 0;
+  line-height: .7rem;
+}
+
+.headerBtnContainer {
+  text-align: center;
+}
+
+@media screen and (min-width: 370px) {
+  .headerBtn {
+    margin: 0 0 3rem 0;
+  }
+  .headerBtnCs {
+    font-size: 12px;
+  }
+  .sampleText {
+    padding: 0 1rem .5rem 1rem;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .headerBtnCs {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 427px) {
+  .headerBtnCs {
+    padding: 0.3rem 1.5rem;
+    line-height: 1rem;
+  }
+}
+
+@media screen and (min-width: 440px) {
+  .sampleText {
+    padding: 0 2rem .5rem 2rem;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .headerBtn {
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 504px) {
+  .sampleText {
+    padding: 0 3.5rem .5rem 3.5rem;
+  }
+}
+
+@media screen and (min-width: 565px) {
+  .headerBtn {
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .headerBtn {
+    padding: 1.3rem 2.5rem;
+  }
+  .headerBtnCs {
+    /* width: 42vw; */
+    padding: 8px 16px;
+    line-height: 1.1rem;
+  }
+  .sampleText {
+    display: none;
+  }
+
+  /* .headerBtnContainer{
+    text-align: left;
+  } */
+}
+
+@media screen and (min-width: 664px) {
+  .headerBtn {
+    font-size: 0.8rem;
+    padding: 1rem 3.5rem;
+    margin: 0.3rem 0 0.3rem 0;
+  }
+}
+
+@media screen and (min-width: 736px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1022px) {
+  .headerBtn {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
+}
+
+@media screen and (min-width: 1400px) {
+}

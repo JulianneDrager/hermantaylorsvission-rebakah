@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Heebo:wght@100;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;500;700&family=Montserrat:ital,wght@1,300&display=swap");
+
+@font-face {
+  font-family: "Norwester";
+  src: url("../../../font/Norwester-eRV6.otf") format("truetype");
+}
+
+.leftQuoteCol {
+  background-image: url("../../../images/mobile-comming-soon-images/mobile-quotes.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  background-position: center top;
+  margin: 0 0 0 27px;
+}
+
+.rightQuoteCol {
+  background-image: url("../../../images/mobile-comming-soon-images/mobile-quotes.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top right -2px;
+  transform: rotate(180deg);
+  position: relative;
+  left: -27px;
+}
+
+.quoteCon {
+  position: relative;
+  color: #ffffff;
+  /* width: 152%; */
+  width: 74vw;
+  left: -47px;
+  padding: 22px 6px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-size: 11.5px;
+}
+
+.h2Title {
+  font-family: "Archivo Black";
+  font-style: normal;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.contentCol {
+  margin: 0;
+}
+
+.quoteDiv {
+  border: 17px solid ffffff00;
+  display: block;
+}
+
+.pStyle {
+  margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .rowStyle {
+    max-width: 24rem;
+  }
+  .contentCol {
+    margin: 8px 3px 10px -24px;
+  }
+  .quoteCon {
+    width: 52vw;
+    position: relative;
+    color: #ffffff;
+    left: -30px;
+    padding: 13px 13px;
+    font-family: "Montserrat";
+    font-style: italic;
+  }
+
+  .pStyle {
+    font-size: 1.9vw;
+  }
+
+  .rightQuoteCol {
+    display: none;
+  }
+
+  .wrapper {
+    background-color: #0000007d;
+    padding: 9px 0 8px 0;
+    margin: -7px 0 0 -126px;
+    width: 288px;
+  }
+}
+
+@media screen and (min-width: 817px) {
+  .wrapper {
+    margin: 0 0 0 -146px;
+  }
+}
+
+@media screen and (min-width: 845px) {
+  .quoteCon {
+    max-width: 472px;
+  }
+  .pStyle{
+    font-size: 15.9px;
+  }
+}
+
+@media screen and (min-width: 1369px) {
+  .wrapper {
+    background-color: #0000007d;
+    padding: 9px 0 8px 0;
+    width: 288px;
+  }
+}
