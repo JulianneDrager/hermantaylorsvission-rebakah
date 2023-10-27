@@ -1,0 +1,160 @@
+
+@font-face {
+  font-family: "Norwester";
+  src: url("../../font/Norwester-eRV6.otf") format("truetype");
+}
+
+.email,
+.name,
+.phone {
+  border-radius: 5px;
+  margin: 0.3rem 0;
+}
+
+.contactTitle {
+  font-size: 2rem;
+  line-height: 1.8rem;
+  font-family: "Norwester";
+  color: white;
+  margin-bottom: .9rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.contact {
+  font-size: 1.22rem;
+  color: white;
+  font-family: "Antonio";
+  margin: 0 0 .9rem 0rem;
+}
+
+.labelForm {
+  margin-top: 1rem;
+  margin-bottom: .2rem;
+  color: white;
+}
+
+.formStyle {
+  background-color: black;
+  background-size: cover;
+  padding: 0 1rem 0 1rem;
+  margin: 0;
+}
+
+.btn{
+  color: black;
+  font-family: arial;
+  background-color: white !important;
+  border-radius: 5px;
+  border: none;
+  width: 65% !important;
+  transition: .5s;
+  padding: .4rem 0rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.btn:hover {
+  background-color: #0d6efd !important;
+  border: none;
+  color: white;
+}
+
+@media screen and (min-width: 375px) {
+  .contact {
+    font-size: 1.4rem;
+  }
+
+  .contactTitle{
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    width: 75%;
+  }
+
+}
+
+@media screen and (min-width: 600px) {
+  .contact {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .contact {
+    font-size: 2rem;
+  }
+
+  .formStyle {
+    padding: 3rem 1rem 0 1rem;
+  }
+}
+
+@media screen and (min-width: 667px) {
+  .formStyle {
+    padding: 3rem 1rem 0 1rem;
+  }
+}
+
+@media screen and (min-width: 736px) {
+  .contactTitle{
+    padding: 1rem 2rem;
+  }
+
+  .formStyle {
+    padding: 3rem 1rem 0 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .formStyle {
+    margin: 0;
+  }
+
+  .btn {
+    width: 33% !important;
+    padding: .5rem 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .formStyle {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 812px) {
+  .formStyle {
+    margin: 0;
+  }
+
+  .btn {
+    padding: .5rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .formStyle {
+    margin: 0;
+    padding: 5rem 1rem 0 1rem;
+  }
+
+  .btn {
+    padding: .5rem 0;
+    width: 15rem !important;
+  }
+
+  .contactTitle{
+    font-size: 3.3rem;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .formStyle {
+    padding: 5rem 1rem 0 1rem;
+  }
+
+  .btn {
+    width: 15rem !important;
+    padding: .5rem 0;
+  }
+}

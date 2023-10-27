@@ -8,6 +8,7 @@ import BookTitle from "./BookTitle";
 import useMediaQuery from "../UseMediaQuery";
 import CsDesktop from "./CsDesktop";
 import Btn from "../ui/Btn";
+import Contact from "../Contact/Contact";
 
 const ComingSoon = () => {
   const bookCol = ComingSoonStyle.bookCol;
@@ -36,7 +37,7 @@ const ComingSoon = () => {
               <Btn>CONTACT HERMAN TODAY</Btn>
             </div>
             <div className={cornerImage}></div>
-          </div>
+          </div>          
         </div>
       )}
       {matchesMinWidth765 && <CsDesktop />}

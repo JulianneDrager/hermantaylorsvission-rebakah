@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import ComingSoon from "./Coming Soon/ComingSoon";
 import comingSoonStyle from "./Coming Soon/css/ComingSoonStyle.module.css";
 import Footer from "./Footer/Footer";
+import Contact from "./Contact/Contact";
 import Interview from "./Interview/Interview";
 
 const Screen = () => {
@@ -15,6 +16,7 @@ const Screen = () => {
         <ComingSoon />
         <div className={marginStyle2}>
           <Interview />
+           <Contact/>
           <Footer />
         </div>
       </div>
