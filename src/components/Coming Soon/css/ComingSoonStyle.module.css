@@ -32,8 +32,9 @@
   position: relative;
 }
 
-.marginStyle {
-  margin: -191px 0 0 0;
+.marginStyle,
+.marginStyle2 {
+  margin: -192px 0 0 0;
 }
 
 .cornerImage {
@@ -69,15 +70,16 @@
 
 @media screen and (min-width: 500px) {
   .cornerImage {
-    top: -8.95rem;
+    /* top: -8.95rem; */
     height: 44.9vh;
   }
 }
 
 @media screen and (min-width: 600px) {
   .bookCol {
-    width: 86vw;
+    width: 667px;
     position: static;
+    margin: 49px 0 0 -228px;
   }
 
   .bookCoverCon {
@@ -102,8 +104,20 @@
     margin: -254px 0 0 0;
   }
 
+  .marginStyle2{
+    margin: 0;
+  }
+
   .fireBurstCol {
     background-size: contain;
+  }
+}
+
+@media screen and (min-width: 664px) {
+  .bookCol {
+    width: 707px;
+    position: static;
+    margin: 49px 0 0 -248px;
   }
 }
 
@@ -126,10 +140,16 @@
   }
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 741px) {
   .bookCol {
-    width: 79vw;
+    width: 747px;
+    position: static;
+    margin: 49px 0 0 -228px;
   }
+}
+
+@media screen and (min-width: 765px) {
+
   .bookRow {
     margin-top: -282px;
   }
@@ -139,6 +159,22 @@
 @media screen and (min-width: 817px) {
   .quoteCol {
     margin: 1vh 0 0;
+  }
+}
+
+@media screen and (min-width: 870px) {
+  .bookCol {
+    width: 817px;
+    position: static;
+    margin: 49px 0 0 -260px;
+  }
+}
+
+@media screen and (min-width: 907px) {
+  .bookCol {
+    width: 90vw;
+    position: static;
+    margin: 49px 0 0 -248px;
   }
 }
 
@@ -157,13 +193,28 @@
     margin: 0 0 0 -239px;
   }
 }
+@media screen and (min-width: 1031px) {
+  .bookCol {
+    width: 967px;
+    position: static;
+    margin: 59px 0px 0 -298px;
+  }
+}
+
+@media screen and (min-width: 1168px) {
+  .bookCol {
+    max-width: 1067px;
+    position: static;
+    margin: 59px 0px 0 -338px;
+  }
+}
 
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .bookCol {
     max-width: 859px;
   }
-}
+} */
 
 
 

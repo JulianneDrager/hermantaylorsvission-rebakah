@@ -12,7 +12,7 @@
   background-size: contain;
   background-size: 100%;
   background-position: center top;
-  margin: 0 0 0 27px;
+  margin: 0 0 0 34px;
 }
 
 .rightQuoteCol {
@@ -30,17 +30,19 @@
   color: #ffffff;
   /* width: 152%; */
   width: 74vw;
-  left: -47px;
+  left: -50px;
   padding: 22px 6px;
   font-family: "Montserrat";
   font-style: italic;
   font-size: 11.5px;
+  text-align: justify;
 }
 
 .h2Title {
   font-family: "Archivo Black";
   font-style: normal;
   font-size: 1.2rem;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -55,6 +57,24 @@
 
 .pStyle {
   margin: 0;
+}
+
+@media screen and (min-width: 389px) {
+    .quoteCon {
+    left: -54px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .quoteCon {
+  left: -57px;
+}
+}
+
+@media screen and (min-width: 483px) {
+  .leftQuoteCol {
+  margin: 0 0 0 33px;
+}
 }
 
 @media screen and (min-width: 600px) {
@@ -90,6 +110,12 @@
   }
 }
 
+@media screen and (min-width: 732px) {
+  .quoteCon {
+  width: 49vw;
+}
+}
+
 @media screen and (min-width: 817px) {
   .wrapper {
     margin: 0 0 0 -146px;
@@ -105,6 +131,18 @@
   }
 }
 
+@media screen and (min-width: 1235px) {
+  .quoteCon {
+    max-width: 650px;
+  }
+  .leftQuoteCol {
+    margin: 0 0 0 28px;
+  }
+  .wrapper {
+    margin: 0 0 0 -292px;
+  }
+}
+
 @media screen and (min-width: 1369px) {
   .wrapper {
     background-color: #0000007d;
@@ -112,3 +150,15 @@
     width: 288px;
   }
 }
+
+@media screen and (min-width: 1430px) {
+  .pStyle{
+    font-size: 18.9px;
+  }
+
+  .quoteCon{
+    max-width: 780px;
+  }
+}
+
+

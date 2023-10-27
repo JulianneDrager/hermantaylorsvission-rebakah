@@ -12,10 +12,10 @@ const SocialMediaSection = () => {
 
   return (
     <div className={headerLinksCon}>
-      <a href="/">
+      <a href="https://www.instagram.com/p/CxZMd2srL2P/">
         <Image className={facebookStyle} src={Facebook} alt="Facebook Icon" />
       </a>
-      <a href="/">
+      <a href="/https://www.facebook.com/herman.taylor.353">
         <Image
           className={instagramStyle}
           src={Instagram}
