@@ -41,6 +41,11 @@
     padding: .1rem;
 }
 
+.facebookStyle:hover,
+.instagramStyle:hover {
+    filter: invert(1);
+}
+
 .socailMediaCol {
     width: 7rem;
 }
@@ -70,6 +75,12 @@
 
 .headerBtnCs {
     font-size: .5rem;
+}
+
+.headerBtn:hover,
+.headerBtnCs:hover {
+    background-color: #291735;
+    border-color: #cac7cd;
 }
 
 .headerBtnContainer {
@@ -268,7 +279,7 @@
         background-size: contain;
         position: relative;
         display: block;
-        z-index: 8;
+        z-index: 1;
         top: -222px;
         height: 13.9rem;
     }
@@ -374,3 +385,10 @@
         left: -106px;
     }
 }
+
+@media screen and (min-width: 1430px) {
+    .headerTitle{
+      width: 260%;
+    }
+
+  }

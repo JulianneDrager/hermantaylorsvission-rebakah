@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Heebo:wght@100;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;500;700&family=Montserrat:ital,wght@1,300&display=swap");
+
+@font-face {
+  font-family: "Norwester";
+  src: url("../../../font/Norwester-eRV6.otf") format("truetype");
+}
+
+.mainCon {
+    position: relative;
+    z-index: 1;
+    width: clamp(304px, 100%, 600px);
+    padding: 10vw 0;
+
+    background-color: #a88d4d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgBackground {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+
+    background-image: url("../../../images/mobile-interview-images/mobile-contact-fade-background.png");
+    background-size: cover;
+
+    width: 100%;
+    aspect-ratio: 600 / 362;
+}
+
+.imgTopper {
+    position: absolute;
+    z-index: 2;
+    top: -43vw;
+
+    background-image: url("../../../images/mobile-interview-images/mobile-top-fire.png");
+    background-size: cover;
+
+    width: 100%;
+    aspect-ratio: 693 / 541;
+
+    /* border: red 2px dashed; */
+}
+
+.imgCornerLeft {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    width: 65%;
+    aspect-ratio: 732 / 957;
+
+    background-image: url("../../../images/interview-images/left-corner.png");
+    background-size: cover;
+}
+
+.imgCornerRight {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: -14vw;
+
+    width: 65%;
+    aspect-ratio: 777 / 960;
+
+    background-image: url("../../../images/interview-images/right-corner.png");
+    background-size: cover;
+}
+
+.contentCon {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.imgSpeakerIcon {
+    width: 20%;
+    margin-bottom: 5vw;
+    aspect-ratio: 124 / 108;
+    
+    background-image: url("../../../images/mobile-interview-images/mobile-contact-icon.png");
+    background-size: cover;
+
+}
+
+.h1Style {
+    width: 70%;
+    margin: 0;
+
+    font-family: "Norwester";
+    text-align: center;
+    font-size: 7vw;
+    line-height: 7vw;
+    letter-spacing: 0.4vw;
+    color: white;
+    text-transform: uppercase;
+}
+
+.h1Style > span {
+    color: #3b1c48;
+}
+
+.videoCon {
+    margin-top: 5vw;
+    width: 90%;
+    aspect-ratio: 560 / 314;
+    background-color: #3b1c48;
+    border: .4rem solid #3b1c48;
+}
+
+.videoCon > iframe {
+    margin-bottom: -7px;
+    width: 100%;
+    aspect-ratio: 560 / 314;
+    border: none;
+    overflow: hidden;
+}
+
+@media screen and (min-width:600px) {
+    .mainCon {
+        width: 100%;
+        background-color: black;
+    }
+
+    .contentCon {
+
+    }
+    
+    .h1Style {
+        width: 100%;
+        font-size: 5vw;
+        line-height: 5vw;
+        letter-spacing: 0.2vw;
+    }
+    
+    .h1Style > span {
+        color: #a88d4d;
+    }
+    
+    .videoCon {
+        margin-top: 1vw;
+        border: #3b1c48 solid 1vw;
+    }
+    
+    .videoCon > iframe {
+
+    }
+}
+
+@media screen and (min-width:599px) {
+    .imgCornerLeft {
+        aspect-ratio: 713 / 957;
+    }
+
+    .imgCornerRight {
+        aspect-ratio: 636 / 960;
+    }
+
+    .mainCon {
+        background-color: black;
+    }
+}
